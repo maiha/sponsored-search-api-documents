@@ -134,6 +134,7 @@ SOAPリクエストが成功した場合、スポンサードサーチ APIは HT
 コード                   | メッセージ  | 説明 
 ------------------------ | ----------- | -------------------------------------------------------
 0018 | The data size you requested is too large. Please try your request again with a smaller date range or reduce the size of your request.  | 生成されるデータのサイズが大きいため取得に失敗しました。<br>集計期間やパラメーターを調整し、再度リクエストを実施してください。 
+0102 | DEACTIVATED | アカウントが存在しない、ステータスが無効、削除済みなどの状態です。
 0103 | Exists same name. | キャンペーン、広告グループ、もしくは広告の名前が重複します。<br>ユニーク（一意的）な名前を指定してください。 
 1003 | invalid download request. | ダウンロードURLの取得ホストと実行ホストが異なります。
 1004 | download URL has expired. | ダウンロードURLの有効期限が切れました。<br />ダウンロードURLが改ざんされています。
@@ -198,6 +199,7 @@ SOAPリクエストが成功した場合、スポンサードサーチ APIは HT
 210308 | Set campaign active.	| キャンペーンがACTIVEでないため、入札設定が利用できません。
 210309 | Set campaign to Manual CPC.  | キャンペーンが「MANUAL_CPC」でないため、入札設定が利用できません。
 210310 | Select the correct bid type.  | 入札最適化タイプと一致しません。
+210311 | Campaign has been started.  | すでに開始しているキャンペーンの開始日は変更できません。 
 211000 | Cannot operate AdvancedURL.	| アドバンスドURLに移行済みのため、操作できません。
 211001 | Cannot set AdvancedMobileURL. | アプリダウンロードキャンペーンでは、advancedMobileUrlの設定はできません。
 211002 | Lpurl is required for ValueTrack.	| トラッキングURLにバリュートラックの{lpurl}を入れてください。
