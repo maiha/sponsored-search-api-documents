@@ -251,7 +251,7 @@ getで取得したURLから、操作履歴ファイルをダウンロードし�
 
 ##### ＜リクエストサンプル＞
 ```xml
-https://colo[01-12].ss.yahooapis.jp/audit/V6.3/download/xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+https://colo[01-12].ss.yahooapis.jp/audit/V6.2/download/xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 

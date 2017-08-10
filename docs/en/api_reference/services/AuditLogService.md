@@ -251,7 +251,7 @@ Download operation history data file from the URL which acruiqred by 'get'.<br>
 
 ##### Request Sample
 ```xml
-https://colo[01-12].ss.yahooapis.jp/audit/V6.3/download/xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+https://colo[01-12].ss.yahooapis.jp/audit/V6.2/download/xxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 
